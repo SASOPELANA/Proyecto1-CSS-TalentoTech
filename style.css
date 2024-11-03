@@ -1,6 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /* uso e importacion de fuentes google font "Archivo"*/
   font-family: "Archivo", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.menu_hamburguesa {
+  display: none;
+}
+
+.lab_hamburguesa {
+  display: none;
+}
+
+.logo {
+  margin: 10px;
+  padding: 10;
+  width: 90px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+  background-color: #7a1e92;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.ul-container {
+  font-size: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 30px;
+}
+
+.ul-container a {
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.ul-container a:hover {
+  cursor: pointer;
+  color: #00ffff;
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 60px;
+    height: 50px;
+  }
+
+  .lab_hamburguesa {
+    display: flex;
+    padding: 8px;
+  }
+
+  .lab_hamburguesa:hover {
+    color: seashell;
+    cursor: pointer;
+  }
+
+  .ul-container {
+    display: none;
+  }
+
+  /* Mostrar menú al seleccionar checkbox */
+  .menu_hamburguesa:checked ~ .div-inicio-lista .ul-container {
+    display: flex;
+  }
+
+  .li-container {
+    font-weight: bold;
+  }
 }
