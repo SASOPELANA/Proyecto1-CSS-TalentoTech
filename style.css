@@ -71,7 +71,32 @@ body {
   color: #00ffff;
 }
 
-/* Estilos para pantallas pequeñas */
+/* FIn de Header */
+
+/* ----------------- Main y seccion Inicio ------------------ */
+
+#inicio {
+  background-color: #7a1e92;
+  padding: 10px;
+}
+
+#inicio h2 {
+  display: flex;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+  text-shadow: 3px 3px 5px rgba(65, 64, 61, 0.5);
+}
+
+#inicio p {
+  color: #f0f3f4;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding: 8px;
+}
+
+/* -------- Estilos para pantallas pequeñas. Media Queries -------- */
 @media only screen and (max-width: 600px) {
   .logo {
     width: 60px;
@@ -80,7 +105,7 @@ body {
 
   .lab_hamburguesa {
     display: flex;
-    padding: 8px;
+    padding: 3px;
   }
 
   .lab_hamburguesa:hover {
@@ -99,5 +124,24 @@ body {
 
   .li-container {
     font-weight: bold;
+  }
+
+  /* Inicio */
+
+  #inicio h2 {
+    display: flex;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    text-shadow: 3px 3px 5px rgba(65, 64, 61, 0.5);
+  }
+
+  #inicio p {
+    display: flex;
+    color: #f0f3f4;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    padding: 8px;
   }
 }
