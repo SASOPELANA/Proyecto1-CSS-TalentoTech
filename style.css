@@ -96,6 +96,41 @@ body {
   padding: 8px;
 }
 
+/* footer  */
+
+.footer-listas {
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+footer a {
+  color: #f7f9f9;
+  font-size: 25px;
+}
+
+.redes:hover {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgba(0, 255, 255, 0.5);
+}
+
+footer {
+  background-color: #7a1e92;
+}
+
+.footer-container {
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+  color: #000f0f;
+}
+
 /* -------- Estilos para pantallas pequeñas. Media Queries -------- */
 @media only screen and (max-width: 600px) {
   .logo {
