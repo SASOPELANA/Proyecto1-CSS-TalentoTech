@@ -86,6 +86,7 @@ body {
   font-size: 40px;
   justify-content: center;
   text-shadow: 3px 3px 5px rgba(65, 64, 61, 0.5);
+  gap: 10px;
 }
 
 #inicio p {
@@ -94,6 +95,56 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 20px;
   padding: 8px;
+}
+
+/*  Seccion card y productos  */
+
+#productos {
+  background-image: url("./img/546183.jpg");
+  overflow: hidden;
+}
+
+#productos h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border: 3px solid #566573;
+  color: #f7f9f9;
+  padding: 10px;
+  gap: 10px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px;
+  background-image: url("./img/fondo-card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+}
+
+.card-body a {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background-color: #9813b3;
+  color: #f3f1f1;
+}
+
+.card:hover {
+  color: white;
+  background-color: rgba(10, 5, 20, 0.5);
+  box-shadow: 5px 5px 20px rgba(0, 255, 0, 0.5);
+  transform: translate(-4%);
+  cursor: pointer;
+  font-weight: bold;
 }
 
 /* footer  */
@@ -181,6 +232,36 @@ footer {
     padding: 8px;
   }
 
+  /*  Seccion card y productos  version moviles */
+
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: auto;
+  }
+
+  .card p {
+    display: none;
+  }
+
+  .card:hover p {
+    display: flex;
+  }
+
+  .card h5 {
+    display: flex;
+    justify-content: center;
+  }
+
   /* Footers */
 
   .footer-listas {
@@ -208,4 +289,8 @@ footer {
     padding: 8px;
     text-align: center;
   }
+}
+
+/* Pantallas medianas - Tables -  Media Queries - */
+@media (min-width: 600px) and (max-width: 1024) {
 }
