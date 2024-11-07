@@ -74,9 +74,10 @@ body {
 
 /* FIn de Header */
 
-/* ----------------- Main y seccion Inicio ------------------ */
+/* ----------------- Main y seccion Inicio  e iframe------------------ */
 
 #inicio {
+
   background-color: #7a1e92;
   padding: 10px;
 }
@@ -96,8 +97,20 @@ body {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 20px;
-  padding: 8px;
+  padding: 8px; 
   margin: auto;
+}
+
+iframe{
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  border: #191a1a solid 2px;
+}
+
+iframe:hover {
+  cursor: pointer;
 }
 
 /*  Seccion card y productos  */
@@ -145,6 +158,8 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+
+/* Seccion carrusel de cartas */
 
 /* footer  */
 
@@ -231,9 +246,18 @@ footer {
     padding: 8px;
   }
 
+  iframe{ 
+    width: auto;
+    height: 320px;
+    border: #d5dbdb solid 2px;
+    margin: auto;
+    overflow: auto;
+   
+  }
+
   /*  Seccion card y productos  version moviles */
 
-  .grid-container {
+  .grid-container { 
     display: flex;
     justify-content: center;
     padding: 20px;
