@@ -77,7 +77,6 @@ body {
 /* ----------------- Main y seccion Inicio  e iframe------------------ */
 
 #inicio {
-
   background-color: #7a1e92;
   padding: 10px;
 }
@@ -97,11 +96,11 @@ body {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 20px;
-  padding: 8px; 
+  padding: 8px;
   margin: auto;
 }
 
-iframe{
+iframe {
   display: flex;
   width: 80%;
   height: 600px;
@@ -160,6 +159,10 @@ iframe:hover {
 }
 
 /* Seccion carrusel de cartas */
+
+.card-carrusel {
+  display: none;
+}
 
 /* footer  */
 
@@ -246,44 +249,68 @@ footer {
     padding: 8px;
   }
 
-  iframe{ 
+  iframe {
     width: auto;
     height: 320px;
     border: #d5dbdb solid 2px;
     margin: auto;
     overflow: auto;
-   
   }
 
   /*  Seccion card y productos  version moviles */
-
-  .grid-container { 
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: auto;
-    background-repeat: repeat;
-    background-size: auto;
-    border: #14dada;
-  }
-
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-
-  .card p {
+  .grid-container {
     display: none;
   }
 
-  .card:hover p {
+  .card-carrusel {
+    background-image: url("./img/fondo-card.jpg");
+    background-repeat: repeat;
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
   }
 
-  .card h5 {
+  .carousel-caption .btn-outline-primary {
+    background-color: #9813b3;
+    color: #fff;
+  }
+
+  .carousel-caption .btn-outline-primary:hover {
+    background-color: blue;
+  }
+
+  .titulo-carrusel {
     display: flex;
     justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .titulo-carrusel h5 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
+  }
+
+  .carousel-inner h5 {
+    color: #e1dbdb;
+    font-weight: bold;
+  }
+
+  .carousel-inner p {
+    display: none;
+  }
+
+  .carousel-caption:hover {
+    color: white;
+    background-color: rgba(10, 5, 20, 0.5);
+    box-shadow: 5px 5px 20px rgba(0, 255, 0, 0.5);
+    transform: translate(-4%);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: bold;
   }
 
   /* Footers */
@@ -395,6 +422,14 @@ footer {
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 50px;
   }
 }
