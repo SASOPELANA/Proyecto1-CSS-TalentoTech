@@ -408,7 +408,10 @@ footer {
   }
 
   .carousel-inner p {
-    display: none;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
   }
 
   .carousel-caption:hover {
@@ -481,7 +484,10 @@ footer {
   }
 
   .carousel-inner p {
-    display: none;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
   }
 
   .carousel-caption:hover {
