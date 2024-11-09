@@ -365,19 +365,61 @@ footer {
     text-shadow: 3px 3px 5px rgba(65, 64, 61, 0.5);
   }
 
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
+  /* Carrusel de iamgenes de productos */
 
-  .card p {
+  .grid-container {
     display: none;
   }
 
-  .card h5 {
+  .card-carrusel {
+    background-image: url("./img/fondo-card.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carousel-caption .btn-outline-primary {
+    background-color: #9813b3;
+    color: #fff;
+  }
+
+  .carousel-caption .btn-outline-primary:hover {
+    background-color: blue;
+  }
+
+  .titulo-carrusel {
     display: flex;
     justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .titulo-carrusel h5 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
+  }
+
+  .carousel-inner h5 {
+    color: #e1dbdb;
+    font-weight: bold;
+  }
+
+  .carousel-inner p {
+    display: none;
+  }
+
+  .carousel-caption:hover {
+    color: white;
+    background-color: rgba(10, 5, 20, 0.5);
+    box-shadow: 5px 5px 20px rgba(0, 255, 0, 0.5);
+    transform: translate(-4%);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: bold;
   }
 }
 
@@ -396,24 +438,61 @@ footer {
     padding: auto;
   }
 
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+  /* Carrusel de iamgenes de productos */
+
+  .grid-container {
+    display: none;
   }
 
-  .card p {
-    font-size: 18px;
+  .card-carrusel {
+    background-image: url("./img/fondo-card.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
   }
 
-  .card h5 {
+  .carousel-caption .btn-outline-primary {
+    background-color: #9813b3;
+    color: #fff;
+  }
+
+  .carousel-caption .btn-outline-primary:hover {
+    background-color: blue;
+  }
+
+  .titulo-carrusel {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    color: white;
+    align-items: center;
+    padding: 50px;
   }
 
-  .card a {
-    font-size: 20px;
+  .titulo-carrusel h5 {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
+  }
+
+  .carousel-inner h5 {
+    color: #e1dbdb;
+    font-weight: bold;
+  }
+
+  .carousel-inner p {
+    display: none;
+  }
+
+  .carousel-caption:hover {
+    color: white;
+    background-color: rgba(10, 5, 20, 0.5);
+    box-shadow: 5px 5px 20px rgba(0, 255, 0, 0.5);
+    transform: translate(-4%);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: bold;
   }
 }
 
