@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -121,9 +121,13 @@
       </div>
     </nav>
 
-    <!-- formulario -->
+    <!-- Formulario con api de FormSubmit -->
 
-    <form class="custom-form">
+    <form
+      class="custom-form"
+      action="https://formsubmit.co/sopekof@gmail.com"
+      method="post"
+    >
       <div class="h2-contactos">
         <h2><i class="bi bi-person-circle"></i> Contactos</h2>
       </div>
@@ -133,6 +137,7 @@
           type="text"
           class="form-control"
           id="nombre"
+          name="nombre"
           placeholder="Ingresa tu nombre"
         />
       </div>
@@ -142,6 +147,7 @@
           type="text"
           class="form-control"
           id="apellido"
+          name="apellido"
           placeholder="Ingresa tu apellido"
         />
       </div>
@@ -151,6 +157,7 @@
           type="email"
           class="form-control"
           id="email"
+          name="email"
           placeholder="Ingresa tu email"
         />
       </div>
@@ -163,6 +170,7 @@
           class="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
+          name="mensaje"
           placeholder="Mensaje..."
         ></textarea>
       </div>
