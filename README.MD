@@ -25,8 +25,11 @@ Diseño y Estructuras
 * Enlaces y Importaciones: Enlaces de componetes en mis archivos HTML como el carrusel, cartas y Navbar desde el sitio web https://getbootstrap.com/ 
 * Íconos Locales: descargados del sitio web https://www.flaticon.es/iconos
 * Estructuras y Carpetas:
+
 _ Carpeta (img) para almacenamiento de imagenes.
+
 _ Carpeta (icon) para los iconos locales.
+
 _ Carptea (hmtl) y (css) para organizar de mejor manera los archivos correspondientes.
 
 Etiquetas Semánticas
