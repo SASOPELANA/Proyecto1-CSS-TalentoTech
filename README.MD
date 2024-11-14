@@ -6,11 +6,17 @@ Proyecto de pre entrega Talento Tech
 Herramientas y Recursos Utilizados
 
 1 FUENTES: Uso y importamos fuentes desde Google Font: https://fonts.google.com/
+
 2 ÍCONOS DE BOOTSTRAP: Importamos iconos de bootstrap desde: https://getbootstrap.com/ 
+
 3 FRAMEWORK BOOTSTRAP: Importamos de bootstrap para ayudarmos con stilos y diseñp responsive del sitio web.
+
 4 JAVASCRIPT BOOTSTRAP: Uso de scrip de bootstrap para iconos y funciones interactivas.
+
 5 API PARA FORMULARIOS: Integracion de la API https://formsubmit.co/  para envios de formularios.
+
 6 HOJA DE ESTILOS EXTERNAS: Aplicacion de hojas de estilos externas.
+
 7 ARCHIVOS HTML: Aplicacion de archivos html.
 
 
