@@ -19,6 +19,10 @@ Herramientas y Recursos Utilizados
 
 7 ARCHIVOS HTML: Aplicacion de archivos html.
 
+8 GIT y GITHUB: Uso del sistema de control de versiones Git para guardar cambios locales en el código de mi proyecto. 
+  Realización de pull y push a través de comandos de Git en la terminal para sincronizar y mantener actualizado mi repositorio remoto en GitHub.
+
+
 
 Diseño y Estructuras
 
