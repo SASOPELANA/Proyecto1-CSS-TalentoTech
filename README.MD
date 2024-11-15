@@ -37,9 +37,7 @@ _ Carpeta (icon) para los iconos locales.
 _ Carptea (hmtl) y (css) para organizar de mejor manera los archivos correspondientes.
 
 Etiquetas Semánticas
-* Aplicacion de etuiquetas semánticas (headers, main, section, nNavegación
-
-    Creación de una lista en el <header> con enlaces a secciones del sitio web: Inicio, Productos, Contactos y Reseñas.av, footer).
+* Aplicacion de etuiquetas semánticas (headers, main, section, nav, footer).
 
 Navegación
 * Creación de una lista en el <header> con enlaces a secciones del sitio web: Inicio, Productos, Contactos y Reseñas.
